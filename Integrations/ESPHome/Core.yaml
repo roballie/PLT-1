@@ -1,11 +1,10 @@
 substitutions:
-  version: "25.3.9.1"
+  version: "25.3.13.1"
 
 esp32:
   board: esp32-c3-devkitm-1
   framework:
     type: esp-idf
-
 
 api:
   services:
@@ -263,6 +262,7 @@ sensor:
     id: soil_moisture
     unit_of_measurement: "%"
     device_class: moisture
+    state_class: measurement
     icon: mdi:water
     lambda: |-
       // Get global calibration values
