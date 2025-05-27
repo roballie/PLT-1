@@ -42,7 +42,7 @@ ota:
 safe_mode:
 
 bluetooth_proxy:
-  active: true
+  active: false
 
 esp32_ble_tracker:
   scan_parameters:
